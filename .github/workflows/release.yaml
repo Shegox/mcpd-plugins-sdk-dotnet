@@ -60,7 +60,7 @@ jobs:
         uses: NuGet/login@v1
         id: nuget-login
         with:
-          user: tobias-test-org
+          user: Shegox
 
       - name: Push to NuGet
         if: ${{ !inputs.dry-run }}
