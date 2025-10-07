@@ -6,15 +6,15 @@
     <Nullable>enable</Nullable>
     <ProtoVersion>0.0.3</ProtoVersion>
 
-    <PackageId>MozillaAI.Mcpd.Plugins.Sdk</PackageId>
+    <PackageId>Shegox.test.package</PackageId>
     <Version>0.0.1</Version>
-    <Authors>Mozilla AI</Authors>
-    <Company>Mozilla AI</Company>
-    <Description>.NET SDK for developing mcpd middleware plugins</Description>
+    <Authors>Shegox</Authors>
+    <Company>Shegox</Company>
+    <Description>Test package</Description>
     <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
-    <PackageProjectUrl>https://github.com/mozilla-ai/mcpd-plugins-sdk-dotnet</PackageProjectUrl>
+    <PackageProjectUrl>https://github.com/Shegox/mcpd-plugins-sdk-dotnet</PackageProjectUrl>
     <PackageReadmeFile>README.md</PackageReadmeFile>
-    <RepositoryUrl>https://github.com/mozilla-ai/mcpd-plugins-sdk-dotnet</RepositoryUrl>
+    <RepositoryUrl>https://github.com/Shegox/mcpd-plugins-sdk-dotnet</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <PackageTags>mcpd;grpc;middleware;plugin</PackageTags>
     <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
