@@ -6,7 +6,7 @@
     <Nullable>enable</Nullable>
     <ProtoVersion>0.0.3</ProtoVersion>
 
-    <PackageId>Shegox.test.package</PackageId>
+    <PackageId>Shegox.test2.package</PackageId>
     <Version>0.0.1</Version>
     <Authors>Shegox</Authors>
     <Company>Shegox</Company>
