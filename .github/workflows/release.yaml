@@ -55,13 +55,6 @@ jobs:
       - name: Pack
         run: dotnet pack src/MozillaAI.Mcpd.Plugins.Sdk/MozillaAI.Mcpd.Plugins.Sdk.csproj --configuration Release --no-build --output ./artifacts
 
-      - name: NuGet login (OIDC → temp API key)
-        if: ${{ !inputs.dry-run }}
-        uses: NuGet/login@v1
-        id: nuget-login
-        with:
-          user: Shegox
-
       - name: Push to NuGet
         if: ${{ !inputs.dry-run }}
-        run: dotnet nuget push ./artifacts/*.nupkg --api-key "${{ steps.nuget-login.outputs.NUGET_API_KEY }}" --source https://api.nuget.org/v3/index.json --skip-duplicate
+        run: dotnet nuget push ./artifacts/*.nupkg --api-key "${{ secrets.NUGET_API_KEY }}" --source https://api.nuget.org/v3/index.json --skip-duplicate
